@@ -1,6 +1,6 @@
 from django.http import JsonResponse
 import requests
-
+    
 def get_weather(request):
     location = request.GET.get('location', '')
     api_key = '34ded7895edec47f8ca97e6a678ae5cd'  # Replace with your API key
